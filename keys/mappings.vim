@@ -4,7 +4,7 @@ imap <C-h> <C-w>h
 imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
-" g Leader key
+" Leader key using space
 let mapleader=" "
 " let localleader=" "
 nnoremap <Space> <Nop>
@@ -81,13 +81,6 @@ else
   nnoremap ˚    :resize +2<CR>
   nnoremap ˙    :vertical resize -2<CR>
   nnoremap ¬    :vertical resize +2<CR>
-
-  " Coc eplorer toggle
-  nnoremap <C-e> :CocCommand explorer<CR>
-
-
-  " Revert Git
-  nnoremap <C-y> :CocCommand git.chunkUndo<CR>
 
 endif
 
