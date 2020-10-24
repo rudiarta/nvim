@@ -76,6 +76,19 @@ else
   nnoremap <silent> <M-h>    :vertical resize -2<CR>
   nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
+  " for mac 
+  nnoremap ∆    :resize -2<CR>
+  nnoremap ˚    :resize +2<CR>
+  nnoremap ˙    :vertical resize -2<CR>
+  nnoremap ¬    :vertical resize +2<CR>
+
+  " Coc eplorer toggle
+  nnoremap <C-e> :CocCommand explorer<CR>
+
+
+  " Revert Git
+  nnoremap <C-y> :CocCommand git.chunkUndo<CR>
+
 endif
 
 " Better nav for omnicomplete

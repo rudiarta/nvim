@@ -22,6 +22,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
+    
+    " Vim golang    
+    Plug 'fatih/vim-go', { 'tag': '*' }
 
   if exists('g:vscode')
     " Easy motion for VSCode
