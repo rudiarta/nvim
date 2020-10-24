@@ -26,6 +26,7 @@
     \ 'coc-json',
     \ 'coc-marketplace',
     \ 'coc-go',
+    \ 'coc-vetur',
     \ ]
     " \ 'coc-tabnine',
     " \ 'coc-highlight',
