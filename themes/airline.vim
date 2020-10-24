@@ -43,7 +43,7 @@ let g:airline_section_c = airline#section#create([''])
 set showtabline=2
 
 " We don't need to see things like -- INSERT -- anymore
-set noshowmode
+" set noshowmode
 
 " Sections
 " let g:airline_section_c = ''
